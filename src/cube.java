@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.regex.Pattern;
 
-class proto {
+class cube {
     public static void main(String[] args) {
     	try {
-    		System.out.print("\033[1;34m" + "proto> " + "\033[m");
+    		System.out.print("proto> ");
     		String input = "";
     		BufferedReader ir = new BufferedReader(new InputStreamReader(System.in));
     		input = ir.readLine();
@@ -26,7 +26,7 @@ class proto {
         		if (input.contentEquals("help")) {
         			System.out.println("commands: help");
         		}
-        		System.out.print("\033[1;34m" + "proto> " + "\033[m");
+        		System.out.print("proto> ");
         		input = ir.readLine();
         	}
     		System.exit(0);
