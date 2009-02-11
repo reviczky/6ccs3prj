@@ -1,0 +1,4 @@
+#!/bin/sh
+JAVA='/usr/bin/java'
+
+exec $JAVA -classpath ./cube.jar:$JARS cube "$@"
