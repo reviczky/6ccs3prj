@@ -37,3 +37,9 @@ ADD_CUSTOM_TARGET (
     SH_SCRIPT_FILE ALL
     DEPENDS ${SH_SCRIPT}
 )
+
+SET (CPACK_GENERATOR "TBZ2")
+SET (CPACK_SOURCE_GENERATOR "TBZ2")
+SET (CPACK_SOURCE_IGNORE_FILES "/.git/;/CMakeFiles/;/Makefile;/cmake_install.cmake;/CMakeCache.txt;/CPackConfig.cmake;/CPackSourceConfig.cmake")
+
+INCLUDE (CPack)
