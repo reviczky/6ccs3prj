@@ -2,7 +2,7 @@
 FILE(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/.class")
 
 SET(CMAKE_Java_COMPILE_OBJECT
-  "<CMAKE_Java_COMPILER> <FLAGS> <SOURCE> -d \"<CMAKE_CURRENT_BINARY_DIR>/.class\""
+  "<CMAKE_Java_COMPILER> <FLAGS> -encoding utf8 <SOURCE> -d \"<CMAKE_CURRENT_BINARY_DIR>/.class\""
 )
 
 # this is a place holder if java needed flags for javac they would go here.
