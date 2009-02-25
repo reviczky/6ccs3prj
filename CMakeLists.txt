@@ -2,7 +2,7 @@
 CMAKE_MINIMUM_REQUIRED (VERSION 2.6)
 
 # project name
-PROJECT (cube)
+PROJECT (CUBE)
 
 # version number
 SET (CUBE_VERSION 0.1)
