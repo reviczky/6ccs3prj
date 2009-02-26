@@ -22,6 +22,11 @@ import java.util.regex.Pattern;
 class cube {
     public static void main(String[] args) {
     	try {
+		System.out.println("Cube  Copyright (C) 2009  Adam Janos Reviczky");
+		System.out.println("This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.");
+		System.out.println("This is free software, and you are welcome to redistribute it");
+		System.out.println("under certain conditions; type `show c' for details.");
+		System.out.println("");
     		System.out.print("proto> ");
     		String input = "";
     		BufferedReader ir = new BufferedReader(new InputStreamReader(System.in));
