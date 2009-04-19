@@ -11,7 +11,7 @@ SET (CUBE_SOURCE_FILES
 ADD_LIBRARY (cube ${CUBE_SOURCE_FILES})
 
 # Java exec shell script
-IF (LINUX)
+IF (UNIX)
     SET (SH_SCRIPT cube.sh)
 
     ADD_CUSTOM_COMMAND (
@@ -41,7 +41,7 @@ IF (LINUX)
         SH_SCRIPT_FILE ALL
         DEPENDS ${SH_SCRIPT}
     )
-ENDIF (LINUX)
+ENDIF (UNIX)
 
 # default binary tarball for CPack
 SET (CPACK_GENERATOR "TBZ2")
