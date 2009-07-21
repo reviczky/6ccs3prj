@@ -43,12 +43,6 @@ IF (UNIX)
     )
 ENDIF (UNIX)
 
-# default binary tarball for CPack
-SET (CPACK_GENERATOR "TBZ2")
-
-# default source tarball for CPack
-SET (CPACK_SOURCE_GENERATOR "TBZ2")
-SET (CPACK_SOURCE_IGNORE_FILES "/.git/;/CMakeFiles/;/Makefile;/cmake_install.cmake;/CMakeCache.txt;/CPackConfig.cmake;/CPackSourceConfig.cmake")
-
-# CPack packaging tool
-INCLUDE (CPack)
+# install target path
+INSTALL (FILES cube.jar DESTINATION usr/local/bin)
+INSTALL (PROGRAMS cube.sh DESTINATION usr/local/bin)

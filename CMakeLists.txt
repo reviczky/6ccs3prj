@@ -15,3 +15,13 @@ SET (CMAKE_USER_MAKE_RULES_OVERRIDE "override")
 
 # source directory
 ADD_SUBDIRECTORY (src)
+
+# default binary format
+SET (CPACK_GENERATOR "TBZ2")
+
+# default source format
+SET (CPACK_SOURCE_GENERATOR "TBZ2")
+SET (CPACK_SOURCE_IGNORE_FILES "/.git/;/CMakeFiles/;/Makefile;/cmake_install.cmake;/CMakeCache.txt;/CPackConfig.cmake;/CPackSourceConfig.cmake")
+
+# CPack packaging tool
+INCLUDE (CPack)
