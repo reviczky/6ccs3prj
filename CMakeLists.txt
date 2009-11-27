@@ -1,5 +1,5 @@
 # CMake version requirement
-CMAKE_MINIMUM_REQUIRED (VERSION 2.6)
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
 
 # project name
 PROJECT (CUBE)
