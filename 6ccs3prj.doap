@@ -1,0 +1,28 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:foaf="http://xmlns.com/foaf/0.1/"
+        xmlns="http://usefulinc.com/ns/doap#">
+
+        <name>6ccs3prj</name>
+        <shortdesc xml:lang="en">Bsc 3rd-year Individual Project</shortdesc>
+        <homepage rdf:resource="http://projects.dcs.kcl.ac.uk/~reviczky/" />
+        <download-page rdf:resource="http://github.com/reviczky/6ccs3prj/downloads" />
+        <bug-database rdf:resource="http://github.com/reviczky/6ccs3prj/issues" />
+        <mailing-list rdf:resource="https://moodle.dcs.kcl.ac.uk:844/2009/mod/forum/view.php?id=341" />
+        <programming-language>Java</programming-language>
+
+        <maintainer>
+                <foaf:Person>
+                        <foaf:name>Adam Reviczky</foaf:name>
+                        <foaf:mbox rdf:resource="mailto:adam.reviczky@kcl.ac.uk"/>
+                </foaf:Person>
+        </maintainer>
+
+        <author>
+                <foaf:Person>
+                        <foaf:name>Adam Reviczky</foaf:name>
+                        <foaf:mbox rdf:resource="mailto:adam.reviczky@kcl.ac.uk"/>
+                </foaf:Person>
+        </author>
+
+</Project>
